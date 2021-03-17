@@ -1,0 +1,94 @@
+// Text color
+.textRed {
+	color: red;
+}
+
+.textPink {
+	color: $flat-red-4;
+}
+
+.textWhite {
+	color: white !important;
+}
+
+.textGray {
+	color: $gray;
+}
+
+.textDarkOne {
+	color: $flat-dark-1;
+}
+
+.textBlack {
+	color: $black;
+}
+
+.textBlue {
+	color: $blue-2;
+}
+
+.textDarkGray {
+	color: $dark-gray;
+}
+
+.textLightBlack {
+	color: $light-black;
+}
+
+.text-dark-5 {
+	color: $flat-dark-5;
+
+	// For compatibility reasons
+	&.alternate {
+		color: #898994;
+	}
+}
+// End of text color
+
+// Text sizing
+.textSm {
+	font-size: 12px;
+}
+
+// TODO: Change shit naming
+.textBetween {
+	font-size: 14px;
+}
+
+.textMd {
+	font-size: 16px;
+}
+
+.textLg {
+	font-size: 24px;
+}
+// End of text sizing
+
+// Others
+.text-center {
+	text-align: center;
+}
+
+.text-start {
+	text-align: start;
+}
+
+.normal-weight {
+	font-weight: normal !important;
+}
+
+.semi-bold {
+	font-weight: 500;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.no-decoration {
+	text-decoration: none;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}

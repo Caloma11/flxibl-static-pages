@@ -1,0 +1,148 @@
+<div class="px-5 static-bg">
+  <!-- Navbar -->
+  <div class="publicNavbar pl-5">
+    <%= image_tag "icons/flxibl-logo.svg", class: "pr-4", alt: "flxibl logo", height: 36, width: 121 %>
+    <%= link_to "Businesses", "#", class: "navLink" %>
+    <%= link_to "Freelancers", "#", class: "navLink" %>
+    <%= link_to "About us", "#", class: "navLink" %>
+    <%= link_to "Contact", "#", class: "navLink" %>
+    <div class="publicNavbarRight pr-5">
+      <%= link_to "Login", "#", class: "navLink" %>
+      <%= link_to "Sign up", "#", class: "navLink btn btn-primary btn-public mr-5", id: "publicSignUp" %>
+    </div>
+  </div>
+  <!-- Hero -->
+  <div class="homeHero pt-5">
+    <div class="homeHeroLeft px-4 pb-5 ml-5 pr-0">
+       <h1 class="homeTitle">Flex with freelancers</h1>
+       <p class="homeSubTitle">Create your own freelance network, book <br>instantly and pay effortlessly. The new ‘Flxibl’ way of working.</p>
+       <div class="flex w-100 justify-content-start">
+          <%= link_to "Try it for free", "#", class: "btn btn-primary btn-public mr-3 h-56" %>
+          <%= link_to "#", class: "btn btn-transparent relative" do %>
+            <%= image_tag "icons/play.svg", alt: "play icon", class: "pr-3", id: "play-icon" %>
+            <span>See how it works</span>
+          <% end %>
+       </div>
+    </div>
+    <div class="homeHeroRight">
+      <%= image_tag "illustration.png", alt: "animation people" %>
+    </div>
+  </div>
+  <!-- Cta list -->
+  <div class="homeCtaList pt-3">
+    <p>Scale your businesses like thousands of others by building your own freelance workforce</p>
+    <div class="flex ctActions">
+
+      <div class="flex items-center">
+        <%= image_tag "icons/search-gray.svg", alt: "magnifying glass icon" %>
+        <span class="pl-3">Source talent</span>
+      </div>
+
+
+      <div class="flex items-center">
+        <%= image_tag "icons/person-check-gray.svg", alt: "person check icon" %>
+        <span class="pl-3">Build a network</span>
+      </div>
+
+
+      <div class="flex items-center">
+        <%= image_tag "icons/schedule-gray.svg", alt: "schedule icon" %>
+        <span class="pl-3">Book instantly</span>
+      </div>
+
+
+      <div class="flex items-center">
+        <%= image_tag "icons/credit-card.svg", alt: "credit card icon" %>
+        <span class="pl-3">Pay effortlessly</span>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Businesses and freelancers -->
+  <section class="bAndF py-4">
+    <h2 class="mx-0 mt-4 mb-0">Making everyones life easier</h2>
+    <div class="flex justify-content-center">
+      <div class="globeWrapper flex">
+        <div class="globeWrapperLeft p-3">
+          <h3>Businessess</h3>
+          <p>We connect businesses with their freelancers so that outsourcing is just as efficient and cost-effective as insourcing. </p>
+          <%= link_to "Find out more", "#", class: "btn btn-transparent" %>
+        </div>
+        <%= image_tag "globe.png", alt: "globe" %>
+        <div class="globeWrapperRight p-3">
+          <h3>Freelancers</h3>
+          <p>We connect freelancers with  their clients so that they’re easily accessible. We also automate everyones admin.</p>
+          <%= link_to "Find out more", "#", class: "btn btn-transparent" %>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-content-center">
+      <div class="statistics">
+        <div class="statInfo">
+          <span>100+</span>
+          <button class="btn btn-white">Countries supported</button>
+        </div>
+        <div class="statInfo">
+          <span>10k+</span>
+          <button class="btn btn-white">Pre-registered businesses</button>
+        </div>
+        <div class="statInfo">
+          <span>200k+</span>
+          <button class="btn btn-white">Pre-registered freelancers</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Scaling -->
+  <section class="scaling">
+    <div class="flex justify-content-center">
+
+      <div class="flex px-4">
+        <div class="scalingLeft">
+          <%= image_tag "clock.png", alt: "clock" %>
+          <h3>Empowering managers to scale quickly</h3>
+          <p>We’re enabling managers to book freelance  resource as and when they need it whilst giving key stakeholders visibility and control.</p>
+          <div class="flex">
+            <%= link_to "Try it for free", "#", class: "btn btn-primary btn-public mr-3 h-56" %>
+            <%= link_to "Find out more", "#", class: "btn btn-transparent" %>
+          </div>
+        </div>
+        <div class="scalingRight flex flex-column">
+
+          <div class="scalingRightCard flex">
+            <%= image_tag "icons/flick-up.svg", alt: "alttext" %>
+            <div class="rightCardRight">
+              <span>Built for efficiency</span>
+              <p>Our intuative user-interface makes building and connnecting with your freelance workforce quick and effortless.</p>
+            </div>
+          </div>
+
+          <div class="scalingDivider"></div>
+
+            <div class="scalingRightCard flex">
+              <%= image_tag "icons/like.svg", alt: "alttext" %>
+              <div class="rightCardRight">
+                <span>Built for efficiency</span>
+                <p>Our intuative user-interface makes building and connnecting with your freelance workforce quick and effortless.</p>
+              </div>
+            </div>
+
+            <div class="scalingDivider"></div>
+
+            <div class="scalingRightCard flex">
+              <%= image_tag "icons/time-clock.svg", alt: "alttext" %>
+              <div class="rightCardRight">
+                <span>Built for efficiency</span>
+                <p>Our intuative user-interface makes building and connnecting with your freelance workforce quick and effortless.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>

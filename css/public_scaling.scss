@@ -1,0 +1,73 @@
+.scaling {
+  @extend .m-5, .p-4;
+  background: #F7F7F8;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+
+  .scalingLeft {
+    @extend .flex, .flex-column, .justify-content-end, .pt-5, .pr-4;
+    position: relative;
+
+    h3 {
+      @extend .mt-5, .mb-0;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 56px;
+      color: #272E35;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #6E757C;
+    }
+
+    img {
+      z-index: 8;
+      position: absolute;
+      width: 940px;
+      top: -120px;
+      height: 420px;
+      left: -144px;
+    }
+  }
+
+  .scalingRight {
+    @extend .pl-4, .pb-3, .mx-4;
+
+    span {
+      color: #272E35;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    p {
+      @extend .mb-0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #6E757C;
+    }
+
+    img {
+      @extend .m-3;
+      margin-bottom: auto;
+    }
+
+    .rightCardRight {
+      @extend .flex, .flex-column, .justify-content-center;
+      width: 240px;
+    }
+
+    .scalingDivider {
+      @extend .my-3;
+      background: #748FB5;
+      opacity: 0.15;
+      width: 100%;
+      height: 3px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.homeHero {
+  @extend .flex;
+  .homeTitle {
+    @extend .semi-bold, .mb-0, .mt-0;
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 600;
+    color: $dark-gray;
+  }
+
+  .homeSubTitle {
+    font-size: 20px;
+    color: $gray;
+    line-height: 24px;
+    padding-bottom: 32px;
+  }
+
+  .btn-transparent {
+    @extend  .flex, .items-center, .justify-content-center;
+    border: 1px solid $dark-gray;
+    padding: 12px 24px;
+    border-radius: 16px;
+  }
+
+  .homeHeroLeft {
+
+    .btn.relative span {
+      @extend .pl-3;
+    }
+    #play-icon {
+      position: absolute;
+      left :16px;
+      top: 6px;
+    }
+  }
+
+  .homeHeroRight {
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      // top: -32px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.publicNavbar {
+  @extend .flex, .justify-content-between, .items-center, .textMd, .semi-bold;
+  padding-top: 32px;
+
+  .publicNavbarRight {
+    @extend .flex, .items-center;
+    margin-left: auto;
+
+    #publicSignUp {
+      @extend .textWhite, .bold;
+    }
+  }
+
+  .navLink {
+    @extend .px-4, .textGray;
+    &:hover {
+      color: $dark-gray;
+    }
+  }
+}
